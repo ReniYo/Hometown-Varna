@@ -1,0 +1,160 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@font-face {
+    font-family: 'renitta';
+    src: url('/font/renitta.regular.otf');
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url('/font/oswald.light.ttf');
+}
+
+@font-face {
+    font-family: 'blancha';
+    src: url('/font/blancha.regular.ttf')
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+}
+
+.text-spec {
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 0px 0px 5px #1D3557;
+    padding: 3px 12px 5px 12px;
+    margin: 110px 0px 11px 0px;
+    
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.logline-town {
+    font-size: 20px;   
+    padding: 5px 28px 8px 28px;
+    margin: 0px 0px 119px 0px;
+   
+}
+
+.border-rad {
+    border-radius: 10px;
+}
+
+#hero {
+    background-image: url("images/Varna-cover.jpg");
+    background-size: cover;
+    margin-bottom: 0px;
+    height: 343px;    
+    color: #fefae0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'renitta';
+    text-shadow: 0px 0px 5px #1D3557;
+}
+
+#hero:hover {
+    background-image: url("images/varna-panoramic.jpg")
+}
+
+#activities {
+    background: #fefae0;
+    margin-top: 0px;
+    padding-right: 33px;
+    color: #023047;
+    font-family: 'oswald';
+}
+
+.top-town {
+    margin: 0;
+    padding: 39px 0px 54px 0px;
+    font-size: 24px;
+}
+
+#act-images {
+    display:flex;
+    justify-content: space-around;
+}
+
+.radius {
+    border-radius: 50%;
+}
+
+.pop-up:hover {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.activity {
+    margin-left: 33px;
+}
+
+#guide-sec {
+    display:flex;
+    width: 400px;
+    height: 294px;
+    margin: 50px auto;
+    color: #1D3557;
+    background: #ffba08;
+    box-shadow: 6px 6px 0px #1D3557;
+}
+
+.guide-img {
+    width: 180px;
+    height: 249px;
+    margin: 23px 13px 23px 0px;
+    box-shadow: 0 0 5px #1D3557;
+}
+
+#guide-info {
+    padding: 49px 7px 84px 11px;
+}
+
+.title-guide {
+    margin: 0;
+    padding: 14px 0;
+    font-family:'oswald';
+    font-size: 24px;
+}
+
+.quote {
+    font-family: 'oswald';
+    font-size: 20px;
+    margin: 0 0 26px 0;
+    padding: 0;
+}
+
+.name-guide {
+    font-family: 'renitta';
+     margin-top: 26px;
+     padding: 0;
+}
